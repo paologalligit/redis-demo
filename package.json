@@ -1,0 +1,30 @@
+{
+  "name": "redis-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paologalligit/redis-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paologalligit/redis-demo/issues"
+  },
+  "homepage": "https://github.com/paologalligit/redis-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.3.3",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
